@@ -172,12 +172,12 @@ button:hover {
 }
 
 .rectangle-image {
-  width: 400px;
-  height: 250px;
-  display: block;             /* Removes whitespace under image */
-  object-fit: contain;        /* Ensures full image is visible inside box */
-  background-color: #f0f0f0;  /* Optional: shows background if image has transparency */
-  border: 1px solid #ccc;
+  width: 800px;             /* Fixed width */
+  height: 400px;            /* Fixed height */
+  object-fit: contain;      /* Keeps image visible without cropping */
+  display: block;
+  border: 2px solid #ccc;
+  background-color: white;  /* Helps with transparent PNGs */
 }
 
 .gallery {
