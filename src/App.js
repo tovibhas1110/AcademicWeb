@@ -31,10 +31,10 @@ const AcademicProfile: React.FC = () => {
             </p>
           </div>
           <div className="image-grid">
-            <img src="/defence.jpeg" alt="In the lab" />
-            <img src="/degree.jpeg" alt="Playing chess" />
-            <img src="/bike.jpg" alt="Traveling" />
-            <img src="/canon.jpeg" alt="Reading a book" />
+            <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="In the lab" />
+            <img src={`${process.env.PUBLIC_URL}/images/degree.jpeg`} alt="Playing chess" />
+            <img src={`${process.env.PUBLIC_URL}/images/bike.jpg`} alt="Traveling" />
+            <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="Reading a book" />
             <img src="/chess.jpg" alt="Reading a book" />
             <img src="/book3body.jpg" alt="Reading a book" />
           </div>
