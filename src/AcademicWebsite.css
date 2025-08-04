@@ -171,15 +171,6 @@ button:hover {
 
 }
 
-.rectangle-image {
-  width: 800px;             /* Fixed width */
-  height: 400px;            /* Fixed height */
-  object-fit: contain;      /* Keeps image visible without cropping */
-  display: block;
-  border: 2px solid #ccc;
-  background-color: white;  /* Helps with transparent PNGs */
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
