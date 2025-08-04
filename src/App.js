@@ -52,7 +52,7 @@ const AcademicProfile: React.FC = () => {
           Using finite element methods, I analyze how these factors interact, and apply the insights to optimize both structural designs and fabrication strategies tailored for metal additive manufacturing.
           </p>
           <div className="gallery">
-            <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="workflow" />
+            <img src={`${process.env.PUBLIC_URL}/images/work.jpg`} alt="workflow" />
           </div>
           
         </section>
