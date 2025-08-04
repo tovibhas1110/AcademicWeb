@@ -34,9 +34,9 @@ const AcademicProfile: React.FC = () => {
             <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="In the lab" />
             <img src={`${process.env.PUBLIC_URL}/images/degree.jpeg`} alt="Playing chess" />
             <img src={`${process.env.PUBLIC_URL}/images/bike.jpg`} alt="Traveling" />
-            <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="Reading a book" />
-            <img src={`${process.env.PUBLIC_URL}/images/chess.jpg`} alt="Reading a book" />
-            <img src={`${process.env.PUBLIC_URL}/images/book3body.jpg`} alt="Reading a book" />
+            <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="dutch" />
+            <img src={`${process.env.PUBLIC_URL}/images/chess.jpg`} alt="Chess" />
+            <img src={`${process.env.PUBLIC_URL}/images/book3body.jpg`} alt="book" />
           </div>
           
           
