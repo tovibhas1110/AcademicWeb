@@ -171,6 +171,15 @@ button:hover {
 
 }
 
+.rectangle-image {
+  width: 400px;     /* Set your desired width */
+  height: 250px;    /* Set your desired height */
+  object-fit: cover; /* Ensures image covers the area without distortion */
+  border: 2px solid #ccc;  /* Optional border */
+  border-radius: 8px;      /* Optional rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
