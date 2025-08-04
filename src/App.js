@@ -51,7 +51,7 @@ const AcademicProfile: React.FC = () => {
           My research investigates this dynamic interplay between structural design, manufacturing processes, and mechanical properties. 
           Using finite element methods, I analyze how these factors interact, and apply the insights to optimize both structural designs and fabrication strategies tailored for metal additive manufacturing.
           </p>
-          <div className="image-grid1">
+          <div className="image-grid">
             <img src={`${process.env.PUBLIC_URL}/images/work.jpg`} alt="workflow" />
           </div>
           
