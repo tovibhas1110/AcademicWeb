@@ -9,7 +9,7 @@ const AcademicProfile: React.FC = () => {
         <p className="text-lg text-gray-700">Researcher, Computational Design</p>
       </header>
 
-      <nav className="flex space-x-6 mb-8 text-sm text-gray-600">
+      <nav className="flex-wrap space-x-6 mb-8 text-sm text-gray-600">
         <a href="#about" className="hover:underline">About</a>
         <a href="#research" className="hover:underline">Research</a>
         <a href="#teaching" className="hover:underline">Teaching</a>
