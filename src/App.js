@@ -1,5 +1,6 @@
 import React from "react";
 import './AcademicWebsite.css';
+import myImage from './degree.jpeg';
 
 const AcademicProfile: React.FC = () => {
   return (
@@ -32,7 +33,7 @@ const AcademicProfile: React.FC = () => {
           </div>
           <div className="image-grid">
             <img src={`${process.env.PUBLIC_URL}/defence.jpeg`} alt="In the lab" />
-            <img src={`${process.env.PUBLIC_URL}/images/degree.jpeg`} alt="Playing chess" />
+            <img src={myImage} alt="Playing chess" />
             <img src={`${process.env.PUBLIC_URL}/images/bike.jpg`} alt="Traveling" />
             <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="Reading a book" />
             <img src="/chess.jpg" alt="Reading a book" />
