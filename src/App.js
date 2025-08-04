@@ -6,7 +6,7 @@ const AcademicProfile: React.FC = () => {
     <div className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-serif">
       <header className="mb-10">
         <h1 className="text-3xl font-bold mb-1">Dr. ir. Vibhas Mishra</h1>
-        <p className="text-lg text-gray-700">Researcher, Computational Design</p>
+        <p className="text-lg text-gray-700">Researcher, Delft University of Technology, The Netherlands</p>
       </header>
 
       <nav className="flex-wrap space-x-6 mb-8 text-sm text-gray-600">
