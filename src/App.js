@@ -32,12 +32,12 @@ const AcademicProfile: React.FC = () => {
             </p>
           </div>
           <div className="image-grid">
-            <img src={`${process.env.PUBLIC_URL}/defence.jpeg`} alt="In the lab" />
-            <img src={myImage} alt="Playing chess" />
+            <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="In the lab" />
+            <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="Playing chess" />
             <img src={`${process.env.PUBLIC_URL}/images/bike.jpg`} alt="Traveling" />
             <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="Reading a book" />
-            <img src="/chess.jpg" alt="Reading a book" />
-            <img src="/book3body.jpg" alt="Reading a book" />
+            <img src={`${process.env.PUBLIC_URL}/images/chess.jpg`} alt="Reading a book" />
+            <img src={`${process.env.PUBLIC_URL}/images/book3body.jpg`} alt="Reading a book" />
           </div>
           
           
@@ -53,7 +53,7 @@ const AcademicProfile: React.FC = () => {
           Using finite element methods, I analyze how these factors interact, and apply the insights to optimize both structural designs and fabrication strategies tailored for metal additive manufacturing.
           </p>
           <div className="profile-photo-rectangle">
-            <img src="/workflow.png" alt="Reading a book" />
+            <img src={`${process.env.PUBLIC_URL}/images/workflow.png`} alt="Reading a book" />
           </div>
           
         </section>
