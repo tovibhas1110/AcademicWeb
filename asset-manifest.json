@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/AcademicWeb/static/css/main.6080bb24.css",
-    "main.js": "/AcademicWeb/static/js/main.82f67572.js",
+    "main.js": "/AcademicWeb/static/js/main.f4137bd4.js",
     "static/js/453.a5a847af.chunk.js": "/AcademicWeb/static/js/453.a5a847af.chunk.js",
-    "static/media/degree.jpeg": "/AcademicWeb/static/media/degree.792838e1f7628d105357.jpeg",
     "index.html": "/AcademicWeb/index.html",
     "main.6080bb24.css.map": "/AcademicWeb/static/css/main.6080bb24.css.map",
-    "main.82f67572.js.map": "/AcademicWeb/static/js/main.82f67572.js.map",
+    "main.f4137bd4.js.map": "/AcademicWeb/static/js/main.f4137bd4.js.map",
     "453.a5a847af.chunk.js.map": "/AcademicWeb/static/js/453.a5a847af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6080bb24.css",
-    "static/js/main.82f67572.js"
+    "static/js/main.f4137bd4.js"
   ]
 }
