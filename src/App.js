@@ -1,12 +1,15 @@
 import React from "react";
 import './AcademicWebsite.css';
-import {Helmet} from "react-helmet"
+import {useEffect} from "react";
 
 const AcademicProfile: React.FC = () => {
+  
+  useEffect(() => {
+    document.title = "Vibhas Mishra";
+  }, []);
+
   return (
-    <Helmet>
-      <title>My Custom Tab Name</title>
-    </Helmet>
+    
     <div className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-serif">
       <header className="mb-10">
         <h1 className="text-3xl font-bold mb-1">Dr. ir. Vibhas Mishra</h1>
