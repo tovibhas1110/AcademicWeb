@@ -117,9 +117,9 @@ const AcademicProfile: React.FC = () => {
               Mishra, V., Ayas, C., Wu, J. (under preparation). <em>Fabrication Sequence Optimization for Multi-Axis Additive Manufacturing to Control Metal Material Microstructure</em>. 
             </li>
             <li>
-              Mishra, V., Wu, J. (under review). <em>Differentiable Modelling and Optimization of Multi-Planar Slicing for Multi-Axis Additive Manufacturing</em>. Structural and Multidisciplinary Optimization.
+              Mishra, V., Wu, J. (2026). <em>Differentiable Modelling and Optimization of Multi-Planar Slicing for Multi-Axis Additive Manufacturing</em>. Structural and Multidisciplinary Optimization, 69, 31.
               <br />
-              <strong>DOI:</strong> <span className="text-blue-600">Coming soon</span>
+              <strong>DOI:</strong> <a href="https://doi.org/10.1007/s00158-025-04240-3" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/s00158-025-04240-3</a>
             </li>
             <li>
               Rege R., Mellema T., Ramcharan A., Ait Hoummad A., Verhoeven S., Mishra V., Jansen A. J., Ouwerkerk N. & Shokri F. (2025). <em>3D Drug Printing by Semi-Solid Extrusion Through Reusable Cartridges: Usability Evaluation</em>. Journal of Pharmaceutical Innovation, 20, 21. 
