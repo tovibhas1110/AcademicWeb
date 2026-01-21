@@ -1,15 +1,15 @@
 import React from "react";
 import {useEffect} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import StressBasedScrollStory from "./story1";
-import About from "./About";
-import Home from "./Home";
-import Navbar from "./Navbar";
-import Research from "./Research";
-import Teaching from "./Teaching";
-import Publications from "./Publications";
-import Contact from "./Contact";
-import story1 from "./story1"
+import StressBasedScrollStory from "./pages/story1";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import Research from "./pages/Research";
+import Teaching from "./pages/Teaching";
+import Publications from "./pages/Publications";
+import Contact from "./pages/Contact";
+import story1 from "./pages/story1"
 
 
 function App() {
