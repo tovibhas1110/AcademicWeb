@@ -9,8 +9,7 @@ import Research from "./Research";
 import Teaching from "./Teaching";
 import Publications from "./Publications";
 import Contact from "./Contact";
-import { Link } from "react-router-dom";
-
+import story1 from "./story1"
 
 
 function App() {
@@ -22,12 +21,6 @@ function App() {
   return (
     
     <BrowserRouter>
-    <div className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-serif">
-      <header className="mb-10">
-      <h1 className="text-3xl font-bold mb-1">Dr. ir. Vibhas Mishra</h1>
-      <p className="text-lg text-gray-700">Researcher, Delft University of Technology, The Netherlands</p>
-      </header>
-    </div>
     
     <Navbar />
       <Routes>
@@ -35,6 +28,7 @@ function App() {
         <Route path="/AcademicWeb/About" element={<About />} />
         <Route path="/AcademicWeb/Research" element={<Research />} />
         <Route path="/AcademicWeb/Publications" element={<Publications />} />
+        <Route path="/AcademicWeb/Publications/story1" element={<StressBasedScrollStory />} />
         <Route path="/AcademicWeb/Teaching" element={<Teaching />} />
         <Route path="/AcademicWeb/Contact" element={<Contact />} />
       </Routes>
