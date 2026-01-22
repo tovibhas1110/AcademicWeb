@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import story1 from "./pages/story1";
 import PortfolioHighlights from "./pages/highlights";
 import ResearchCarousel from "./pages/ResearchCarousel";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   
@@ -22,8 +23,7 @@ function App() {
   return (
     
     <BrowserRouter>
-    
-    <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/AcademicWeb/" element={<Home />} />
         <Route path="/AcademicWeb/About" element={<About />} />
