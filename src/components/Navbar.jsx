@@ -6,13 +6,13 @@ function Navbar() {
     
     <nav  className="navbar" >
       <ul>
-        <li> <Link to="/AcademicWeb/">Home</Link></li>
-        <li> <Link to="/AcademicWeb/About">About Me</Link></li>
-        <li> <Link to="/AcademicWeb/Research">Research</Link></li>
-        <li> <Link to="/AcademicWeb/Publications">Publications</Link></li>
-        <li> <Link to="/AcademicWeb/Highlights">Highlights</Link></li>
-        <li> <Link to="/AcademicWeb/Teaching">Teaching</Link></li>
-        <li><Link to="/AcademicWeb/Contact">Contact</Link></li>
+        <li> <Link to="/">Home</Link></li>
+        <li> <Link to="/About">About Me</Link></li>
+        <li> <Link to="/Research">Research</Link></li>
+        <li> <Link to="/Publications">Publications</Link></li>
+        <li> <Link to="/Highlights">Highlights</Link></li>
+        <li> <Link to="/Teaching">Teaching</Link></li>
+        <li><Link to="/Contact">Contact</Link></li>
       </ul>
     </nav>
   );
