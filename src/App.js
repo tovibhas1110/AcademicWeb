@@ -25,7 +25,7 @@ function App() {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/AcademicWeb/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Research" element={<Research />} />
         <Route path="/Publications" element={<Publications />} />
