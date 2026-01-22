@@ -22,7 +22,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/AcademicWeb/" element={<Home />} />
@@ -35,7 +35,7 @@ function App() {
         <Route path="/AcademicWeb/Contact" element={<Contact />} />
         <Route path="/AcademicWeb/Carousel" element={<ResearchCarousel />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
 
   );
