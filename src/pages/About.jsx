@@ -22,7 +22,14 @@ function About() {
                 I also have a deep interest in history, love reading books across genres, and enjoy watching a wide range of films.
                 These interests help me stay engaged, open-minded, and continuously inspired, both inside and outside the lab.
               </p>
-
+              <div className="image-grid">
+              <img src={`${process.env.PUBLIC_URL}/images/defence.jpeg`} alt="In the lab" />
+              <img src={`${process.env.PUBLIC_URL}/images/degree.jpeg`} alt="Playing chess" />
+              <img src={`${process.env.PUBLIC_URL}/images/wheel.jpg`} alt="Traveling" />
+              <img src={`${process.env.PUBLIC_URL}/images/canon.jpeg`} alt="dutch" />
+              <img src={`${process.env.PUBLIC_URL}/images/chess.jpg`} alt="Chess" />
+              <img src={`${process.env.PUBLIC_URL}/images/book3body.jpg`} alt="book" />
+            </div>
             </div>
           </section>
         </main>
