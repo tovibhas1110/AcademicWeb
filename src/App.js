@@ -26,14 +26,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/AcademicWeb/" element={<Home />} />
-        <Route path="/AcademicWeb/About" element={<About />} />
-        <Route path="/AcademicWeb/Research" element={<Research />} />
-        <Route path="/AcademicWeb/Publications" element={<Publications />} />
-        <Route path="/AcademicWeb/Highlights" element={< PortfolioHighlights/>} />
-        <Route path="/AcademicWeb/Publications/story1" element={<StressBasedScrollStory />} />
-        <Route path="/AcademicWeb/Teaching" element={<Teaching />} />
-        <Route path="/AcademicWeb/Contact" element={<Contact />} />
-        <Route path="/AcademicWeb/Carousel" element={<ResearchCarousel />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Research" element={<Research />} />
+        <Route path="/Publications" element={<Publications />} />
+        <Route path="/Highlights" element={< PortfolioHighlights/>} />
+        <Route path="/Publications/story1" element={<StressBasedScrollStory />} />
+        <Route path="/Teaching" element={<Teaching />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Carousel" element={<ResearchCarousel />} />
       </Routes>
     </HashRouter>
 
